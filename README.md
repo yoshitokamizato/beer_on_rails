@@ -5,14 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+# Ruby version
 - Ruby 2.3.1
 - Rails 5.2.1
 
-* Database initialization
+# Database initialization
 - MySQL
 
-* How to run
+# How to run
 以下のコマンドを実行してください。
 
 ```
@@ -31,7 +31,7 @@ cd beer_on_rails
 bundle exec rake db:create
 ```
 
-* Check Remote branch
+# Check Remote branch
 リモートのブランチ一覧を確認するには以下のコマンドを入力
 
 ```
