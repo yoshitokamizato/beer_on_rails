@@ -31,9 +31,21 @@ cd beer_on_rails
 bundle exec rake db:create
 ```
 
+* Check Remote branch
+リモートのブランチ一覧を確認するには以下のコマンドを入力
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+git branch -a
+```
 
-* Deployment instructions
+リモートのブランチが確認できない場合
 
-* ...
+```
+git fetch
+```
+
+ローカルでリモートブランチと同じブランチを作成しチェックアウトする
+
+```
+git checkout -b local_branch origin/remote_branch
+```
